@@ -1,0 +1,109 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.h1-posts {
+    margin-left: 0.5%;
+}
+
+.btn-new-post {
+    margin: 10px 0 10px 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: large;
+    font-weight: 500;
+    background-color: #3a51ff;
+}
+
+.btn-cancel {
+    margin: 10px 0 10px 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: large;
+    font-weight: 500;
+    background-color: #ff3a3a;
+}
+
+@keyframes grow {
+    0% {
+        opacity: 0;
+        height: 0;
+    }
+
+    80% {
+        opacity: 0;
+        height: 200px;
+    }
+
+    90% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+        height: 200px;
+    }
+}
+
+@keyframes shrink {
+    0% {
+        display: block;
+        opacity: 1;
+        height: 200px;
+    }
+
+    10% {
+        opacity: 0.5;
+    }
+
+    30% {
+        display: none;
+        opacity: 0;
+        height: 200px;
+    }
+
+    100% {
+        opacity: 0;
+        height: 0;
+    }
+}
+
+#frm-new-post {
+    width: 100%;
+    animation-duration: 1s;
+    animation-play-state: paused;
+    display: none;
+    animation-fill-mode: forwards;
+}
+
+#new-post-container {
+    border: 2px solid #000;
+    border-radius: 15px;
+    margin: 0 1%;
+}
+
+#tear-new-post {
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 75px;
+    margin: 0 2.5% 10px 2.5%;
+    border: solid 1px #000;
+}
+
+.new-post {
+    margin: 0 0 15px 35px;
+}
+
+#btn-post {
+    color: #fff;
+    font-size: large;
+    font-weight: 500;
+    background-color: #3a51ff;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
